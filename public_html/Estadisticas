@@ -1,0 +1,61 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="estilos/connM.css">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>
+          Objetivo
+ </title>
+ </head>
+
+ <body>
+
+<FONT class="texdes"FACE="Impact">
+<p class="evento" onmouseover="this.style.color='#F7FE29'" onmouseout="this.style.color='white'"><MARQUEE BGCOLOR="#087EB9">ESTADISTICAS</MARQUEE></p>
+</FONT><br>
+ 
+<p>Como sabemos hoy en día hay inmensidad de accidentes automovilísticos, derivados por diversas circunstancias según las SEGOB
+(SECRETARÍA DE GOBERNACIÓN) Los factores humanos son la causa del mayor porcentaje de accidentes de tránsito, debido a las 
+ principales causas siguientes:
+ 
+ 
+<div class="titu">Factor Humano</div>
+<UL TYPE="circle">
+<li>Conducir bajo los efectos del alcohol, medicinas y estupefacientes.
+<li>Realizar maniobras imprudentes y de omisión por parte del conductor, por ejemplo; no respetar los señalamientos viales.
+<li>Conducir a exceso de velocidad (produciendo vuelcos, salida del automóvil de la carretera, derrapes).
+<li>Salud física del conductor (ceguera, daltonismo, sordera).
+<li>Conducir con fatiga, cansancio o con sueño.
+</ul> 
+
+<p>Claro que tambian hay otros factores como son:</p>
+
+
+<div class="titu">Factor Mecánico:</div>
+<UL TYPE="circle">
+<li>Vehículo en condiciones no adecuadas para su operación (sistemas averiados de frenos, eléctrico, dirección o suspensión).
+<li>Mantenimiento inadecuado del vehículo.
+</ul>
+
+<div class="titu">Factor Climatológico:</div>
+<UL TYPE="circle">
+<li>Niebla, humedad, derrumbes, zonas inestables, hundimientos.
+</ul>
+
+<div class="titu">Factor estructural de tránsito:</div>
+<UL TYPE="circle">
+<li>Errores de señalamientos viales.
+<li>Carreteras en mal estado o sin mantenimiento (baches, hoyos, pavimento deteriorado).
+<li>La falta de pintura y reflejantes en las líneas centrales y laterales de la carretera.
+</ul>
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>

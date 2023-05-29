@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contáctanos</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos/ESTILOSS.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		 <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+	
+</head>
+<body bgcolor="white" id='body'>
+
+
+<center>
+  <table>
+</center>
+
+<tr>
+<th><b CLASS="texto"></b></th>
+<th><b CLASS="texto"></b></th>
+<th><b CLASS="texto"></b></th>
+</tr>
+
+
+<tr>
+<td><a title="HOME" href="index.php"><img src="imagenes/casita-Amarilla.jpg" height="50" alt="HOME" onmouseover="imagen1();" onmouseout="imagen2();" id="i"/></a><br><p><pre>                             </pre></p></td>
+
+<td><center><button id='tema'>CAMBIAR TEMA</button>
+<p id="result">TEMA <pre>                                                                                                                  </pre></center></td></p>
+
+<td><a title="Siguiente" href="Cuenta.html" target="_blank"><img src="imagenes/Flecha-Roja.jpg" height="50" alt="Siguiente" onmouseover="imagen3();" onmouseout="imagen4();" id="o"/></a><br></td>
+
+</tr>
+
+</table>
+
+
+
+<center>
+	
+<center><div class="t">Porqué tu opinión es importante</div></center>
+<center><div class="t">Contáctanos</div></center>
+
+
+<form name="formulario" method="POST"  action= "mailto:paulinamartinez100909@gmail.com" enctype="text/plain" >
+
+<BR><BR>
+<label class="texfor" for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" size="64" maxlength="39" placeholder="Introduce tu nombre" required>
+<br><br>
+
+<label for="sexo" required class="texfor">Sexo:</label><br><br>
+<input type="radio" name="sexo" id="hombre">Hombre<br><br>
+<input type="radio" name="sexo" id="mujer">Mujer
+
+
+<br><br>
+
+<LABEL class="texfor" FOR="tel">Teléfono:</LABEL>
+<input type="tel" name="telefono" id="tel"size="63" placeholder="Introduce tu telefono" required>
+<br><br>
+
+<label class="texfor" for="correo">Correo:</label> 
+<input type="email" name="correo" id="correo" size="65" placeholder="Introduce tu correo electronico" required>
+
+	
+	<div class="contenedor">
+			<div class="selectbox">
+				<div class="select" id="select">
+					<div class="contenido-select">
+						<h1 class="titulo">Selecciona tu país</h1>
+						<p class="descripcion">Por favor selecciona tu país.</p>
+					</div>
+					<i class="fas fa-angle-down"></i>
+				</div>
+
+				<div class="opciones" id="opciones">
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<img src="imagenes/mexico.png" alt="">
+							<div class="textos">
+								<h1 class="titulo">México</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<img src="imagenes/spain.png" alt="">
+							<div class="textos">
+								<h1 class="titulo">España</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<img src="imagenes/colombia.png" alt="">
+							<div class="textos">
+								<h1 class="titulo">Colombia</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<img src="imagenes/argentina.png" alt="">
+							<div class="textos">
+								<h1 class="titulo">Argentina</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<img src="imagenes/chile.png" alt="">
+							<div class="textos">
+								<h1 class="titulo">Chile</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="opcion">
+						<div class="contenido-opcion">
+							<div class="textos">
+								<h1 class="titulo">Otro</h1>
+								<p class="descripcion"></p>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+
+			<input type="hidden" name="pais" id="inputSelect" value="" required>
+		
+
+	</div>
+
+
+	
+	
+<label class="texfor" for="asunto">Asunto:</label><br><br>
+<center><textarea name="asunto" rows="20" cols="60" placeholder="Escribe el asunto" required></textarea></center>
+
+ 
+<center>
+<button id="btn_enviar" type="submit">Enviar</button>
+
+
+<button type="reset" id="btn_enviar">Cancelar</button>
+</center>
+
+
+</form></center>
+
+
+
+</body>
+<script src="JavaScript/MAIN.js" type="text/javascript" charset="utf-8"></script>
+</html>
