@@ -1,0 +1,6 @@
+body{overflow-y: scroll;
+	 overflow-x: hidden;}
+Desactivar el scroll vertical:
+
+body{overflow-y: hidden;
+	 overflow-x: scroll;}

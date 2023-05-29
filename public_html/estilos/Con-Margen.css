@@ -1,0 +1,156 @@
+/*ESTOS SON LOS ESTILOS DE LA PAGINA "OBJETIVO"*/
+
+font.texdes{
+color: #5D4343;
+font-size:40px;
+font-family: Palatino Linotype;	
+font-weight: bold;	
+}
+
+
+
+* {
+	margin: 20px;
+	
+}
+
+
+/*ESTOS SON LOS ESTILOS DE LA PAGINA BENEFICIARIOS.php*/
+
+h1.BENE{
+color: #FF0000;
+font-family:Palatino Lytinotype;
+font-size: 60;
+}
+
+p.r{
+font-family:Palatino Lytinotype;
+font-size: 25;
+text-align:justify;
+
+}
+
+
+/*ESTOS SON LOS ESTILOS DE DARK MODE*/
+
+  body {
+    transition: .40s;
+    background: #black;
+    color: black;
+  }
+
+  .black {
+    background: #212121;
+    color: white;
+  }
+
+  button {
+    margin: 25px;
+    border: 0px;
+    padding: 15px;
+    cursor: pointer;
+	width: 132px;
+    height: 2px;
+  }
+
+  /*ESTOS SON LOS ESTILOS DEL BOTÓN DEL DARK MODE*/
+  
+ #tema:hover{
+background-color: #FBFC68;	
+}
+
+#tema{
+background-color: #F7FA15;
+border-bottom: 5px solid #FA0000;
+}
+
+#tema:active{
+position:relative;
+top: 5px;
+border-bottom: none;
+box-shadow: insert 1px 1px 2px black, 2px 2px 2px silver;	
+}
+
+ /*ESTOS SON LOS ESTILOS DE LA PAGINA DE ESTADISTICAS.PHP*/
+ 
+ 
+div.titu{
+text-align:center;
+font-family: Palatino Linotype;	
+font-size: 25;	
+position:center;	
+color: #FF0000;
+font-weight: bold;	
+ }
+ 
+p.parr-ESTADISTICAS{
+text-align:justify;
+font-family: Palatino Linotype;	
+font-size: 20;	
+ }
+ 
+ ol{
+text-align:justify;
+font-family: Palatino Linotype;	
+font-size: 20;	
+ }
+ 
+ 
+ul{
+text-align:justify;
+font-family: Palatino Linotype;	
+font-size: 20;	
+}
+
+p.Titu-Image{
+font-family: Palatino Linotype;	
+font-size: 20;	
+color: #FF0000;
+font-weight: bold;	
+}
+
+
+
+
+/*ESTOS SON LOS ESTILOS DE LA PAGINA QueEs.php*/
+
+h1.que{
+font-family:Palatino Linotype;
+font-size:30;
+text-align:center;	
+color: #FF0000;
+}
+
+p.primero{
+text-align:justify;
+font-family: Palatino Linotype;	
+font-size: 15;	
+position:right;
+width:1100px;
+height:110px;
+margin:20px;
+}
+
+h1.titulo{
+text-align:center;
+font-family: Palatino Linotype;	
+font-size: 25;	
+position:center;	
+}
+
+div.CAR{
+color: #FF0000;
+}
+
+
+
+
+/*ESTOS SON LOS ESTILOS DE LA PAGINA PUEDE INTERESARTE*/
+
+
+h3.Sabias_que{
+font-family:Palatino Linotype;
+font-size:30;
+text-align:center;	
+color: #pink;
+}

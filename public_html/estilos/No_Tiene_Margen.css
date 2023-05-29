@@ -1,0 +1,193 @@
+
+/*ESTOS SON LOS ESTILOS DEL MENU DESPEGABLE*/
+
+*{
+margin: 0px;
+padding: 0px;	
+	
+	
+}
+
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+ 
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:1000px;
+	width:90%;
+}
+ 
+nav ul {
+	list-style:none;
+}
+ 
+nav > ul {
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#FF0000;
+	position:relative;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#FF0000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+
+
+
+/*Colores del menu*/
+nav ul li a .primero {
+	background:#00FFF7;
+}
+
+nav ul li a .segundo {
+	background:#AE00FF;
+}
+
+nav ul li a .tercero {
+	background:black;
+}
+
+nav ul li a .cuarto {
+	background:#00FF97;
+}
+
+nav ul li a .quinto {
+	background:#F7FA15;
+}
+
+nav ul li a .sexto {
+	background:#FF006C;
+}
+
+nav ul li a .septimo {
+	background:#59FF00;
+}
+
+nav ul li a .optavo {
+	background:#FF4500;
+}
+
+
+
+header.menu{
+background-color: FF0000;	
+width:1400px;
+height:133px;
+}
+
+
+/*087EB9*/
+
+
+/*ESTOS SON LOS ESTILOS DE DARK MODE*/
+
+  body {
+    transition: .40s;
+    background: #black;
+    color: black;
+  }
+
+  .black {
+    background: #212121;
+    color: white;
+  }
+
+  button {
+    margin: 25px;
+    border: 0px;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  /*ESTOS SON LOS ESTILOS DEL BOTÓN DEL DARK MODE*/
+  
+ #tema:hover{
+background-color: #FBFC68;	
+}
+
+#tema{
+background-color: #F7FA15;
+border-bottom: 5px solid #FF96C2;
+}
+
+#tema:active{
+position:relative;
+top: 5px;
+border-bottom: none;
+box-shadow: insert 1px 1px 2px black, 2px 2px 2px silver;	
+}
